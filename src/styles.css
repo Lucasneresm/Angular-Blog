@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+* {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu__bar__container {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 20px;
+}
+.links {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: gray;
+    transition-duration: 3ms;
+}
+
+.menu__title__container {
+    display: flex;
+    align-items: end;
+    padding: 60px;
+    padding-top: 85px;
+    font-size: 35px;
+}
+.menu__title__container h5 {
+    padding: 12px;
+    font-size: 15px;
+}
+
+
+.noticias {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 35px;
+    padding-bottom: 100px;
+}
+
+.big__card__container > p {
+    margin-top: 10px;
+    
+}
+
+.small__card__container {
+    margin-block-end: 10px;
+}
+
+#card__one > p {
+    margin-top: 10px;
+}
+
+#card__two {
+    padding-top: 30px;
+}
+#card__two > p {
+    margin-top: 10px;
+}
